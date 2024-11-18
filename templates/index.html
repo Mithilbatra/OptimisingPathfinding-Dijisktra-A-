@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+  <head>
+        <title>Loc Finder</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="https://fonts.googleapis.com/css?family=Comfortaa:300,400,700" rel="stylesheet">
+        <link rel="stylesheet" type="text/css" href="../static/style.css">
+
+  </head>
+  <body>
+
+    <body>
+
+        <div class="container" id="container">
+
+            <div class="map" id="map">
+
+            </div>
+
+            <div class="sideMenu" id="sideMenu">
+                <h1><br>LOC FINDER<br></h1>
+                <h4>Click on map to add marker<br>Click 2 markers to add path</h4>
+
+                <div class="boxContainer" id="markersListContainer">
+                    <h2>Markers List</h2>
+
+                    <ul class="pathList" id="markerList">   
+                    </ul>
+
+                </div>
+
+                <div class="boxContainer" id="pathsListContainer">
+                    <h2>Paths List</h2>
+
+                    <ul class="pathList" id="pathList">   
+                    </ul>
+
+                </div>
+
+                <div class="boxContainer" id="optionContainer">
+                    <h2>Start/End Vertex</h2>
+                    <div class="flexContainer" id="selectContainer">
+
+                        <div class="selectContainer" id="startContainer">
+                            <span>Start</span>
+                            <select class="select" id="startSelect">
+                            </select>
+                        </div>
+
+                        <div class="selectContainer" id="endContainer">
+                            <span>End</span>
+                            <select class="select" id="endSelect">
+                            </select>
+
+                        </div>
+                    </div>
+                </div>
+                <div class="submitContainer" id="submitContainer">
+                    <button class="submitButton" id="submitButton">
+                        Find Shortest Path
+                    </button>
+                    <p id="resetButton">RESET</p>
+                    <h4>Made by Mithil, Nishant , Sharanya , Nithin</h4>
+                </div>
+            </div>
+
+        </div>
+
+        <div class='toastBox' style='display:none'></div>
+    
+
+    <script type="text/javascript" src="../static/jquery.js"></script>
+    <script type="text/javascript" src="../static/index.js"></script>
+    <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyD4OWn9GwizDJN49ltkqmV_NOIsmm9KGTs&callback=initMap"></script>
+  </body>
+</html>
