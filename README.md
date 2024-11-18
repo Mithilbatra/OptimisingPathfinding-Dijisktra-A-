@@ -53,7 +53,8 @@ Check if Flask is installed
 if not installed
 ```bash
   pip install flask
-```
+```<img width="594" alt="Screenshot 2024-11-18 at 6 21 37 AM" src="https://github.com/user-attachments/assets/5a8d87a1-18dd-4a58-8c13-56d94880043e">
+
 Clone the repository
 ```bash
   git clone 
@@ -66,10 +67,10 @@ Run the Flask Server by executing the Python Code
   python3 app.py
 ```
 Access the Application 
+
 ```bash
   http://localhost:5000
 ```
 ## Screenshots
-
-![App Screenshot]()
+<img width="594" alt="Screenshot 2024-11-18 at 6 21 37 AM" src="https://github.com/user-attachments/assets/ee9e7f02-93a9-4b55-91d9-4d1ca4eb59e5">
 
