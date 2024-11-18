@@ -69,9 +69,8 @@ Access the Application
 ```bash
   http://localhost:5000
 ```
-## Screenshots
-A* algorithm :
-![Uploading Screenshot 2024-11-18 at 6.21.37 AM.png…]()
+## Screenshots:
+
 
 Dijisktra Algorithm:
 ![WhatsApp Image 2024-11-18 at 09 58 23](https://github.com/user-attachments/assets/03dfc861-e3ab-4022-9a45-64104ff7f709)
