@@ -52,8 +52,8 @@ Check if Pip is installed
 ```
 if not installed (For ubuntu bases systems)
 ```bash
-   sudo apt update
-   sudo apt install python3-pip
+  sudo apt update
+  sudo apt install python3-pip
 ```
 
 
