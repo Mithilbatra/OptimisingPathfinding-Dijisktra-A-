@@ -44,6 +44,19 @@ if not installed
 ```bash
   Download node.js from https://nodejs.org/
 ```
+Check if Pip is installed 
+```bash
+  pip --version
+       OR
+  pip3--version
+```
+if not installed (For ubuntu bases systems)
+```bash
+   sudo apt update
+   sudo apt install python3-pip
+```
+
+
 Check if Flask is installed 
 ```bash
   python -m flask --version 
