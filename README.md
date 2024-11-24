@@ -70,7 +70,7 @@ if not installed
 Clone the repository
 ```bash
   git clone https://github.com/Mithilbatra/OptimisingPathfinding-Dijisktra-A-.git
-  cd loc-finder
+  cd OptimisingPathfinding-Dijisktra-A-
 ```
 Run the Flask Server by executing the Python Code
 ```bash
